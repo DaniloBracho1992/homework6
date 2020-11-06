@@ -13,4 +13,5 @@ function initPage() {
     var historyEl = document.getElementById("history");
     let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
     console.log(searchHistory);
-    
+    var APIKey = "5f6c5014355d4ecf9b3992bb22cc0a9c";
+    // added a key from the weather API
